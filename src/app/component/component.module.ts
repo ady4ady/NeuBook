@@ -14,8 +14,9 @@ import { NgbdAlertBasicComponent } from './alert/alert.component';
 
 import { NgbdModalBasicComponent } from './modal/modal.component';
 import { NgbdratingBasicComponent } from './rating/rating.component';
-
+import {UserProfileComponent} from './UserProfile/userprofile.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { from } from 'rxjs';
 
 
 @NgModule({
@@ -32,13 +33,12 @@ import { ButtonsComponent } from './buttons/buttons.component';
    
     NgbdAlertBasicComponent,
     
-   
-   
     NgbdModalBasicComponent,
    
     NgbdratingBasicComponent,
     
     ButtonsComponent,
+    UserProfileComponent
    
   ]
 })
